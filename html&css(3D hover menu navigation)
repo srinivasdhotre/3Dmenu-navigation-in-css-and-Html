@@ -1,0 +1,56 @@
+                                                <!--author:SrinivasDhotre-->
+                                        <!--3D feel for menu navigator in CSS&HTML-->
+<!doctype html>    
+<html>
+  <head>
+    <style>                                     <!--style creation starts here-->
+      h3{
+      font-family:Agency FB;
+      opacity:0.3;                                   
+      
+      }
+      body{
+     background-color: #00CC99;
+
+      }
+a {
+       text-decoration:none;
+      display: block;
+ 
+     
+}
+      a:hover{
+      
+      transform: scale(02.0);
+      opacity: 2;
+      transition: transform 0.6s, opacity 0.9s;
+    }
+      
+      li{
+     display:inline;
+      padding:10px;
+       font-family:AGENCY FB;
+      
+     font-size:40px;
+      display: block;
+    width: 120px;
+    background-color: #0099FF;
+         font-weight: 100;
+      color:#4D5439;
+      }
+      </style>
+</head>
+  <h3>SrinivasDhotre SrinivasDhotre
+  SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre SrinivasDhotre </h3>
+  <body id="navigation">
+    <center>
+    <ul>
+    <a href><li>menu</li></a>
+     <a href><li>themes</li></a>
+       <a href><li>options</li></a>
+       <a href><li>designs</li></a>
+    
+    </ul>
+      </center>
+    </body>
+</html>
